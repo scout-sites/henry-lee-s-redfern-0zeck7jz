@@ -1,39 +1,107 @@
 {
   "brand": {
-    "name": "Your Business",
-    "tagline": "A simple, honest landing page",
-    "description": "Replace this with your business description."
+    "name": "Henry Lee's Redfern",
+    "tagline": "Your regular spot in the heart of Redfern.",
+    "description": "Henry Lee's is a neighbourhood café on the streets of Redfern — the kind of place you come back to not because you planned it, but because it just feels right. Good coffee, honest food, and people who know how to make a morning."
   },
   "palette": {
-    "primary": "#111827",
-    "accent": "#6b7280",
-    "background": "#f9fafb",
-    "foreground": "#0f172a"
+    "primary": "#3b2314",
+    "accent": "#c0714f",
+    "background": "#f5f0e8",
+    "foreground": "#1e1712"
   },
   "hero": {
-    "headline": "Tell people what you do, plainly.",
-    "subhead": "Then tell them how to get in touch.",
-    "ctaLabel": "Get in touch",
-    "ctaHref": "#contact"
+    "headline": "Come as you are.",
+    "subhead": "Specialty coffee and good food, right here in Redfern. Pull up a seat — you're among friends.",
+    "ctaLabel": "See what's on",
+    "ctaHref": "#menu"
   },
   "sections": [
     {
-      "kind": "features",
-      "title": "What we do",
+      "kind": "about",
+      "title": "A café that belongs to its street.",
+      "body": "Henry Lee's isn't trying to be anything other than what it is — a proper local café in one of Sydney's most characterful neighbourhoods. We're here for the early risers, the slow Sunday brunchers, the regulars who know their order before they reach the counter, and anyone who just needs a genuinely good cup of coffee. Redfern runs through everything we do."
+    },
+    {
+      "kind": "menu",
+      "title": "Fresh and local, every day.",
+      "body": "Our menu is focused and made with care — seasonal ingredients, nothing fussy. Whether you're after a quick flat white on the go or settling in for brunch, we've got you sorted.",
       "items": [
-        { "title": "Thing one", "body": "Brief description." },
-        { "title": "Thing two", "body": "Brief description." },
-        { "title": "Thing three", "body": "Brief description." }
+        {
+          "title": "Specialty Coffee",
+          "body": "Single origin and seasonal espresso blends, dialled in daily. Takeaway always welcome."
+        },
+        {
+          "title": "Breakfast",
+          "body": "Proper morning food to set you up right — fresh, satisfying, and worth sitting down for."
+        },
+        {
+          "title": "Brunch",
+          "body": "Weekend or weekday, our brunch menu is the kind of thing you look forward to. Local produce, made with care."
+        },
+        {
+          "title": "Lunch",
+          "body": "A focused lunch menu that hits the spot without the fuss. Eat in or grab it and go."
+        },
+        {
+          "title": "Seasonal Specials",
+          "body": "We change things up when good produce tells us to. Ask the crew what's on today."
+        }
       ]
+    },
+    {
+      "kind": "features",
+      "title": "Why the locals keep coming back.",
+      "items": [
+        {
+          "title": "Good coffee, good people",
+          "body": "We take our coffee seriously without taking ourselves too seriously. Every cup is made with intention."
+        },
+        {
+          "title": "Neighbourhood through and through",
+          "body": "We're part of Redfern — not just in it. The community here means everything to us."
+        },
+        {
+          "title": "Made with care",
+          "body": "From the first roast of the morning to the last plate of lunch, everything that leaves our kitchen is something we're proud of."
+        },
+        {
+          "title": "No fuss, just good food",
+          "body": "An honest menu built around fresh, local ingredients. Simple done well beats complicated done poorly."
+        }
+      ]
+    },
+    {
+      "kind": "testimonials",
+      "title": "What the regulars say.",
+      "items": [
+        {
+          "title": "A Redfern staple",
+          "body": "\"Best flat white in the neighbourhood, full stop. I've tried them all.\""
+        },
+        {
+          "title": "Feels like home",
+          "body": "\"The kind of café you move to a suburb for. Warm, unpretentious, genuinely great food.\""
+        },
+        {
+          "title": "My Sunday ritual",
+          "body": "\"I've been coming every weekend for as long as I can remember. Wouldn't trade it for anything.\""
+        }
+      ]
+    },
+    {
+      "kind": "contact",
+      "title": "Find us in Redfern.",
+      "body": "We're in Redfern, Sydney. Pop in, say hello, and let us make you something good. Follow along on socials for what's on the menu this week."
     }
   ],
   "contact": {
     "phone": null,
     "email": null,
-    "address": null,
+    "address": "Redfern, Sydney NSW",
     "hours": null
   },
   "footer": {
-    "blurb": "Built with Scout."
+    "blurb": "Henry Lee's Redfern — good coffee, honest food, your local corner. Come as you are."
   }
 }
